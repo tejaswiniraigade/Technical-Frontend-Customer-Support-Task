@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS File Links -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main Card Start -->
+    <div class="container">
+        <!-- Heading Of Card -->
+        <div class="header">
+            <div class="line"> </div>
+            <div class="headerText">YAY! It's BOGO</div>
+            <div class="line"> </div>
+        </div>
+
+        <!-- 1st Price Card Start-->
+        <div class="priceCard" onclick="toggleCard(this)">
+            <div class="priceInfo">
+                <div class="PriceCheck">
+                    <input type="radio" name="unit" class="radioInput">
+                    <div class="radioBtn"></div>
+                    <div class="textContent">
+                        <span class="unitText">1 Unit <span class="discount">10% OFF</span></span>
+                        <span class="standardText">Standard Price</span>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <span class="currentPrice">$10.00 USD</span><br>
+                    <span class="oldPrice">$24.49 USD</span>
+                </div>
+            </div>
+            <!-- Dropdown Selection Div -->
+            <div class="sizeColorSelection">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td class="dropdownHeading"></td>
+                            <td class="dropdownHeading">Size</td>
+                            <td class="dropdownHeading">Colour</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="dropdownHeading">#1</td>
+                            <td>
+                                <select>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="dropdownHeading">#2</td>
+                            <td>
+                                <select>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colours</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- 1st Price Card End-->
+
+        <!-- 2nd Price Card Start-->
+        <div class="priceCard expanded" onclick="toggleCard(this)">
+            <div class="mostPopularShadow1"> </div>
+            <div class="mostPopularShadow2"> </div>
+            <div class="mostPopular">MOST POPULAR</div>
+            
+            <div class="priceInfo">
+                <div class="PriceCheck">
+                    <input type="radio" name="unit" class="radioInput" checked>
+                    <div class="radioBtn"></div>
+                    <div class="textContent">
+                        <span class="unitText">2 Unit <span class="discount">20% OFF</span></span>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <span class="currentPrice">$18.00 USD</span><br>
+                    <span class="oldPrice">$24.49 USD</span>
+                </div>
+            </div>
+
+            <!-- Dropdown Selection Div -->
+            <div class="sizeColorSelection">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td class="dropdownHeading">Size</td>
+                            <td class="dropdownHeading">Colour</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="dropdownHeading">#1</td>
+                            <td>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="dropdownHeading">#2</td>
+                            <td>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colours</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- 2nd Price Card End-->
+
+        <!-- 3rd Price Card Start-->
+        <div class="priceCard" onclick="toggleCard(this)">
+            <div class="priceInfo">
+                <div class="PriceCheck">
+                    <input type="radio" name="unit" class="radioInput">
+                    <div class="radioBtn"></div>
+                    <div class="textContent">
+                        <span class="unitText">3 Unit <span class="discount">30% OFF</span></span>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <span class="currentPrice">$24.00 USD</span><br>
+                    <span class="oldPrice">$28.49 USD</span>
+                </div>
+            </div>
+
+            <div class="sizeColorSelection">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td class="dropdownHeading">Size</td>
+                            <td class="dropdownHeading">Colour</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="dropdownHeading">#1</td>
+                            <td>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="dropdownHeading">#2</td>
+                            <td>
+                                <select>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colours</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- 3rd Price Card End-->
+
+        <!-- Total Price Div -->
+        <div class="totalInfo">
+            <span class="freeText">Free Delivery</span>
+            <span class="totalText">Total: $18.00 USD</span>
+        </div>
+
+        <button class="btn">+ Add to Cart</button>
+
+        <!-- Footer -->
+        <p class="footer"><i>&copy; Powered by Tejaswini</i></p>
+    </div>
+    <!-- Main Card Start -->
+
+
+
+    <!-- JavaScript File Links-->
+    <script src="script.js"></script>
+</body>
+
+</html>
